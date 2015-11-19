@@ -14,7 +14,7 @@
         <section id="header-wrapper">
 
             <div class = "header-left">
-                <p class = header-text>Tel: <br> 07539 478358</p>
+                <p class = header-text>Tel: <br> 07939 224331</p>
             </div>
 
             <div class = "header-center">
@@ -29,8 +29,8 @@
 
         <div id="sliderGallery" class="shadow">
             <img src="../images/slidingmenu/4.jpg" />
-            <img src="../images/slidingmenu/3.jpg"  />
-            <img src="../images/slidingmenu/2.jpg"/>
+            <img src="../images/slidingmenu/6.jpg"  />
+            <img src="../images/slidingmenu/5.jpg"/>
             <img src="../images/slidingmenu/1.jpg" />
         </div>
 
