@@ -232,8 +232,40 @@ html, body{
 
 .styleImageTextLeft .image img{
 
+
     width: 294px;
     height: 166px;
+    margin-bottom: 40px;
+}
+
+.styleImageTextLeft .imageCenter{
+
+
+    width: 300px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.styleImageTextLeft .imageCenter img{
+
+    width: 294px;
+    height: 166px;
+    margin-bottom: 40px;
+}
+
+.styleImageTextLeft .imageCircled{
+
+    border-radius: 100%;
+    width: 300px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.styleImageTextLeft .imageCircled img{
+
+    border-radius: 100%;
+    width: 270px;
+    height: 270px;
     margin-bottom: 40px;
 }
 
@@ -419,7 +451,7 @@ a {
     -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -439,6 +471,7 @@ a.special:not(.button) {
     letter-spacing: 0.1em;
     margin: 0 0 2em 0;
     text-transform: uppercase;
+    text-align: left;
 }
 
 a.special:not(.button):before {
@@ -455,8 +488,8 @@ a.special:not(.button):before {
     -webkit-transition: background-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out;
     border-radius: 100%;
-    border: solid 2px rgba(255, 255, 255, 0.125);
-    content: '\f105';
+    border: solid 2px rgba(0, 0, 0, 0.125);
+    content: '>';
     display: inline-block;
     font-size: 1.25em;
     height: 2em;
@@ -469,11 +502,16 @@ a.special:not(.button):before {
 }
 
 a.special:not(.button):hover:before {
-    background-color: rgba(255, 255, 255, 0.025);
+    background-color: rgba(21, 227, 248, 0.175);
 }
 
 a.special:not(.button):active:before {
-    background-color: rgba(255, 255, 255, 0.175);
+    background-color: rgba(0, 0, 0, 0.175);
+}
+
+a.special:hover{
+
+    color: #000000 !important;
 }
 
 /* GENERIC STYLES */
@@ -487,7 +525,7 @@ em, i {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ffffff;
+    color: #000000;
     font-family: Raleway, Helvetica, sans-serif;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -506,7 +544,8 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 
     padding-bottom: 0.5em;
-    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    text-align: center;
+    border-bottom: solid 2px #3dbbf8;
 }
 
 h2 {

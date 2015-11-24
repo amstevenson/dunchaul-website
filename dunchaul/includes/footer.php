@@ -12,10 +12,10 @@
 
             <div class = "footer-link-wrapper">
                 <a class = <?php if($pageCat == "index") echo '"footer-nav-active"'; else echo '"footer-nav"'; ?> href ="#" >HOME</a>
-                <a class = <?php if($pageCat == "about us") echo '"footer-nav-active"'; else echo '"footer-nav"'; ?> href ="#">ABOUT US</a>
                 <a class = <?php if($pageCat == "services") echo '"footer-nav-active"'; else echo '"footer-nav"'; ?> href ="#">SERVICES</a>
                 <a class = <?php if($pageCat == "the team") echo '"footer-nav-active"'; else echo '"footer-nav"'; ?> href ="#">THE TEAM</a>
                 <a class = <?php if($pageCat == "our partners") echo '"footer-nav-active"'; else echo '"footer-nav"'; ?> href ="#">OUR PARTNERS</a>
+                <a class = <?php if($pageCat == "gallery") echo '"footer-nav-active"'; else echo '"footer-nav"'; ?> href ="#">GALLERY</a>
                 <a class = <?php if($pageCat == "contact us") echo '"footer-nav-active"'; else echo '"footer-nav"'; ?> href ="#">CONTACT US</a>
             </div>
 
