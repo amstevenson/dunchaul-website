@@ -226,12 +226,12 @@ html, body{
 
 .styleImageTextLeft .image{
 
+    margin-top: 50px;
     width: 300px;
     display: inline-block;
 }
 
 .styleImageTextLeft .image img{
-
 
     width: 294px;
     height: 166px;
@@ -240,10 +240,9 @@ html, body{
 
 .styleImageTextLeft .imageCenter{
 
-
     width: 300px;
     display: inline-block;
-    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .styleImageTextLeft .imageCenter img{
@@ -279,7 +278,7 @@ html, body{
 
 .styleImageTextLeft .image img:first-child{
 
-    margin-top: 20px;
+    margin-top: -20px;
 }
 
 .styleImageTextLeft .image img:last-child{
@@ -299,6 +298,12 @@ html, body{
     text-align: center;
     font-size: 11pt;
     border-top: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+.galleryImage{
+
+    width: 270px;
+    height: 160px;
 }
 
 /*************************************************************************************************
@@ -628,6 +633,13 @@ p{
     font-size: 12pt;
 }
 
+ul li{
+
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 11pt;
+}
+
 /* Altering text sizes etc on mobile devices */
 @media only screen and (max-device-width: 480px) {
 
@@ -640,5 +652,12 @@ p{
     .header-text{
 
         font-size: 16px;
+    }
+
+    ul li{
+
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        font-size: 11pt;
     }
 }

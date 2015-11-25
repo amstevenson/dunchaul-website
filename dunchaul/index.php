@@ -8,7 +8,7 @@
 
         <section class = "styleImageTextLeft">
 
-                <div class = "image">
+                <div class = "image" style = "margin-top: 35px">
                     <img src="images/slidingmenu/1.jpg" />
                     <img src="images/slidingmenu/5.jpg" />
                     <img src="images/IMG_0217.jpg" />

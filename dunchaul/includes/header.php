@@ -4,6 +4,8 @@
 <head>
     <title><?php echo $title; ?></title>
     <link rel="stylesheet" type="text/css" href="../style/main.css" />
+    <?php if($pageCat == "gallery") echo "<link rel='stylesheet' href='includes/fancybox/source/jquery.fancybox.css?v=2.1.5' type='text/css' media='screen' />"; ?>
+
 </head>
 
 <body>
@@ -18,7 +20,7 @@
             </div>
 
             <div class = "header-center">
-                <img src="../images/logotransparentsmallblack.png" />
+                <img src="../images/logotransparentsmallblack2.png" />
             </div>
 
             <div class = "header-right">

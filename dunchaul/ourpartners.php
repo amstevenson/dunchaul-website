@@ -10,7 +10,7 @@
         <section class = "styleImageTextLeft">
 
             <div class = "imageCenter">
-                <img src="images/slidingmenu/1.jpg" />
+                <img src="images/IMG_0330-blue.jpg" />
             </div>
 
             <div class = "text">
@@ -26,7 +26,7 @@
         <section class = "styleImageTextLeft">
 
             <div class = "image">
-                <img src="images/slidingmenu/1.jpg" />
+                <img src="images/IMG_0194.jpg" />
             </div>
 
             <div class = "text">
@@ -58,7 +58,7 @@
         <section class = "styleImageTextLeft">
 
             <div class = "image">
-                <img src="images/slidingmenu/1.jpg" />
+                <img src="images/IMG_0338.jpg" />
             </div>
 
             <div class = "text">
@@ -74,7 +74,7 @@
         <section class = "styleImageTextLeft">
 
             <div class = "image">
-                <img src="images/slidingmenu/1.jpg" />
+                <img src="images/IMG_0337.jpg" />
             </div>
 
             <div class = "text">

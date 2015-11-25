@@ -17,3 +17,18 @@ $(window).resize(function(){
         menu.removeAttr('style');
     }
 });
+
+$(document).ready(function() {
+
+    $("#elastic").fancybox({
+        openEffect	: 'elastic',
+        closeEffect	: 'elastic',
+
+        helpers : {
+            title : {
+                type : 'inside'
+            }
+        }
+    });
+
+});
